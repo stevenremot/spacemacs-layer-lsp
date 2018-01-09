@@ -1,0 +1,28 @@
+#+TITLE: language-server-protocol layer
+
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#key-bindings][Key bindings]]
+
+* Description
+
+This layer setups [[https://github.com/emacs-lsp/lsp-mode][lsp-mode]] and other related packages. This allows having a
+unified configuration on every layer that uses the language server protocol.
+
+* Install
+To use this configuration layer, add it to your =~/.spacemacs=. You will need to
+add =language-server-protocol= to the existing =dotspacemacs-configuration-layers= list in this
+file.
+
+* Key bindings
+
+| Key Binding | Description        |
+|-------------+--------------------|
+| ~M-.~       | Jump to definition |
+| ~M-?~       | Find references    |
+# Use GitHub URLs if you wish to link a Spacemacs documentation file or its heading.
+# Examples:
+# [[https://github.com/syl20bnr/spacemacs/blob/master/doc/VIMUSERS.org#sessions]]
+# [[https://github.com/syl20bnr/spacemacs/blob/master/layers/%2Bfun/emoji/README.org][Link to Emoji layer README.org]]
+# If space-doc-mode is enabled, Spacemacs will open a local copy of the linked file.
